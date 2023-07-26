@@ -70,7 +70,7 @@
         </nav>
 
         <!-- this is banner seciton -->
-        <section class="loto">
+        <section class="loto relative">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                     <div class="hero min-h-[calc(100vh-138px)]" style="background-image: url('./images/banner1.png');">
@@ -139,36 +139,72 @@
             </div>
         </section>
 
+        <!-- fruits section -->
+        <section class="absolute top-[85%] left-28 hidden w-[1120px] mx-auto p-7 lg:flex justify-between h-auto bg-white shadow-lg shadow-200/50 ">
+            <div class="text-center">
+                <img src="images/fruit1.png" alt="">
+                <p class="mt-4">Strawberry</p>
+            </div>
+            <div class="text-center">
+                <img src="images/fruit2.png" alt="">
+                <p class="mt-4">Orange</p>
+            </div>
+            <div class="text-center">
+                <img src="images/fruit3.png" alt="">
+                <p class="mt-4">Mango</p>
+            </div>
+            <div class="text-center">
+                <img src="images/fruit4.png" alt="">
+                <p class="mt-4">Strawberry</p>
+            </div>
+            <div class="text-center">
+                <img src="images/fruit5.png" alt="">
+                <p class="mt-4">Mango</p>
+            </div>
+            
+        </section>
+
     </header>
 
     <!-- this is main section -->
     <main class="container mx-auto">
         <!-- this is Deal of the day section -->
-        <section class="my-24 loto mx-5">
+        <section class="mb-24 mt-12 lg:mt-40 loto mx-5">
             <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center mb-5">
-                <div class="flex-1">
+                <div class="flex-1 text-center lg:text-start my-7">
                     <h2 class="text-4xl font-bold">Deal of the day</h2>
                     <p class="my-5 lg:w-[615px]">Contrary to popular belief, is not simply random text. It has roots in
                         a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
-                <div class="flex lg:flex-1 justify-end gap-10">
+                <div class="flex lg:flex-1 justify-center lg:justify-end gap-7 mb-7">
                     <div>
-                        <h3 class="text-5xl font-bold border-r-8 border-dotted  border-gray-950 pr-5">29</h3>
-
-                        <p class="my-3 mx-2">Days</p>
+                        <div class="flex items-center gap-7">
+                            <h3 class="text-4xl font-bold">29</h3>
+                            <i class="fa-solid fa-ellipsis-vertical text-xl"></i>
+                        </div>
+                        <p class="my-3">Days</p>
+                    </div>
+                   
+                    <div>
+                        <div class="flex items-center gap-7">
+                            <h3 class="text-4xl font-bold">15</h3>
+                            <i class="fa-solid fa-ellipsis-vertical text-xl"></i>
+                        </div>
+                        <p class="my-3">Hours</p>
+                    </div>
+                   
+                    <div>
+                        <div class="flex items-center gap-7">
+                            <h3 class="text-4xl font-bold">25</h3>
+                            <i class="fa-solid fa-ellipsis-vertical text-xl"></i>
+                        </div>
+                        <p class="my-3">Minutes</p>
                     </div>
                     <div>
-                        <h3 class="text-5xl font-bold border-r-8 border-dotted  border-gray-950 pr-5">15</h3>
-                        <p class="my-3 mx-2">Hours</p>
+                        <h3 class="text-4xl font-bold">08</h3>
+                        <p class="my-3">Seconds</p>
                     </div>
-                    <div>
-                        <h3 class="text-5xl font-bold border-r-8 border-dotted  border-gray-950 pr-5">25</h3>
-                        <p class="my-3 mx-2">Minutes</p>
-                    </div>
-                    <div>
-                        <h3 class="text-5xl font-bold border-r-8 border-dotted  border-gray-950 pr-5">08</h3>
-                        <p class="my-3 mx-2">Seconds</p>
-                    </div>
+                   
 
                 </div>
             </div>
@@ -377,7 +413,7 @@
                                 classical <br> Latin literature from 45 BC, making it over 2000 years old.
                             </p>
                         </div>
-                        <div class="flex flex-col lg:flex-row justify-between gap-20 items-center mt-7">
+                        <div class="flex flex-col lg:flex-row justify-between gap-20 lg:gap-36 items-center mt-7">
                             <div class="text-center">
                                 <img class="ps-2" src="images/member1.png" alt="">
                                 <h3 class="text-2xl text-white font-bold mt-3">Awlad Hossain</h3>
@@ -436,13 +472,13 @@
             </div>
             <div class="flex flex-col lg:flex-row justify-center items-center gap-5 mt-10">
                 <div>
-                    <div class="flex gap-5 mb-7">
+                    <div class="flex lg:flex-row gap-5 mb-7">
                         <div class="mt-2">
                             <i class="text-white fa-solid fa-users bg-gray-400 rounded-full p-4"></i>
                         </div>
                         <div>
                             <h4 class="text-2xl font-bold">Dedicated Team</h4>
-                            <hr class="my-2 w-24 border-2">
+                            <hr class="my-2 w-24 h-[3px] bg-black">
                             <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                     </div>
@@ -452,7 +488,7 @@
                         </div>
                         <div>
                             <h4 class="text-2xl font-bold">Fresh is Best</h4>
-                            <hr class="my-2 w-24 border-2">
+                            <hr class="my-2 w-24 h-[3px] bg-black">
                             <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                     </div>
@@ -462,7 +498,7 @@
                         </div>
                         <div>
                             <h4 class="text-2xl font-bold">Gift Certificates</h4>
-                            <hr class="my-2 w-24 border-2">
+                            <hr class="my-2 w-24 h-[3px] bg-black">
                             <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                     </div>
@@ -479,7 +515,7 @@
                             <div class="flex items-center lg:text-right justify-center">
                                 <div class="">
                                     <h4 class="text-2xl font-bold">Dedicated Team</h4>
-                                    <hr class="my-2 w-24 mr-auto ms-0 h-[3px] bg-black">
+                                    <hr class="my-2 w-24 h-[3px] bg-black">
                                     <p>Professional employees are there for you to pick the most amazing and fresh
                                         fruits.</p>
                                 </div>
@@ -492,7 +528,7 @@
                             <div class="flex items-center lg:text-right justify-center">
                                 <div class="">
                                     <h4 class="text-2xl font-bold">Dedicated Team</h4>
-                                    <hr class="my-2 w-24 mr-auto ms-0 h-[3px] bg-black">
+                                    <hr class="my-2 w-24 h-[3px] bg-black">
                                     <p>Professional employees are there for you to pick the most amazing and fresh
                                         fruits.</p>
                                 </div>
@@ -505,7 +541,7 @@
                             <div class="flex items-center lg:text-right justify-center">
                                 <div class="">
                                     <h4 class="text-2xl font-bold">Dedicated Team</h4>
-                                    <hr class="my-2 w-24 mr-auto ms-0 h-[3px] bg-black">
+                                    <hr class="my-2 w-24 h-[3px] bg-black">
                                     <p>Professional employees are there for you to pick the most amazing and fresh
                                         fruits.</p>
                                 </div>
